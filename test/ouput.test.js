@@ -2,8 +2,8 @@
 // 测试输出
 const clc = require('cli-color');
 
-const checker = require('../lib/checker');
+const runner = require('../index').runner;
 
-let result = checker(`【测试页】这是个测试】`);
+let result = runner(`change`, ['change']);
 
-console.log('ouput.test.js');
+console.log(JSON.stringify(result));

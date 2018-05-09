@@ -181,5 +181,13 @@ module.exports = [
         txt: "【测试页】测试】",
         result: false,
         index: 45
+    }, {
+        txt: "Delete test.js",
+        result: false,
+        index: 46
+    }, {
+        txt: "【test.xml】test",
+        result: false,
+        index: 47
     }
 ];
